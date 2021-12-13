@@ -15,18 +15,19 @@ public class SimpleCalculatorTest {
 	@Test
 	public void testSubtract() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.subtract(10, 6), 5);
+		assertEquals(calc.subtract(10, 6), 4);
 	}
 	
-	
+	@Test
 	public void testMultiply() {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(calc.mulitply(4, 5), 20);
 	}
 	
-	
+	@Test
 	public void testDivide() {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(calc.divide(51, 17), 3);
 	}
+	
 }
