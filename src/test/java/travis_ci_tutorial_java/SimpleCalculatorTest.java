@@ -30,4 +30,9 @@ public class SimpleCalculatorTest {
 		assertEquals(calc.divide(51, 17), 3);
 	}
 	
+	@Test
+	public void testDividebyZero() {
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.dividebyzero(17, 0), 34);
+	}
 }

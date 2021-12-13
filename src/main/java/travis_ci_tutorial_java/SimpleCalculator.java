@@ -17,4 +17,7 @@ public class SimpleCalculator {
 		return  a / b;
 	}
 	
+	public int dividebyzero(int a, int b) {
+		return a / b;
+	}
 }
